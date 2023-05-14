@@ -1,6 +1,6 @@
 resource "null_resource" "python_file_writer" {
 	provisioner "local-exec" {
-	command = "python3 ${path.module}/write_numbers.py"
+		command = "python3 ${path.module}/write_numbers.py"
   }
 }
 
